@@ -49,9 +49,7 @@ function setup() {
      
    }
    
-    for (var h = 0; h<particles.length; h++) {
-    particles[h].display();
-  }
+    
   
     
 }
@@ -76,6 +74,8 @@ function draw() {
     divisions[k].display();
   }
      
-   
+   for (var h = 0; h<particles.length; h++) {
+    particles[h].display();
+  }
 
 }
