@@ -44,8 +44,7 @@ function setup() {
        plinkos.push(new Plinko(j,375));
     }
 
-    
-
+    Engine.run(engine);
     
 }
  
@@ -53,7 +52,6 @@ function setup() {
 
 function draw() {
   background("black");
-  textSize(20)
  
   Engine.update(engine);
   ground.display();
@@ -73,4 +71,7 @@ function draw() {
    if(frameCount%60===0){
      particles.push(new Particle(random(width/2-10, width/2+10), 10,10));
      
-   }
+ }
+   for (var h = 0; h<particles.length; h++) {
+    particles[h].display();
+  }
