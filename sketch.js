@@ -73,5 +73,3 @@ function draw() {
      particles.push(new Particle(random(width/2-10, width/2+10), 10,10));
      
    }
-}
- 
