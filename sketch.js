@@ -74,4 +74,8 @@ function draw() {
      
    }
    
-   }
+    for (var h = 0; h<particles.length; h++) {
+    particles[h].display();
+  }
+  
+}
