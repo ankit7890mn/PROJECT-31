@@ -55,7 +55,7 @@ function draw() {
  
   Engine.update(engine);
   ground.display();
-  particles.display();
+  
   
    for (var i = 0; i < plinkos.length; i++) {
      
