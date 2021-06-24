@@ -68,12 +68,10 @@ function draw() {
     divisions[k].display();
   }
      
-   }
+   
    if(frameCount%60===0){
      particles.push(new Particle(random(width/2-10, width/2+10), 10,10));
      
    }
-   for (var h = 0; h<particles.length; h++) {
-    particles[h].display();
-  }
+   
    }
