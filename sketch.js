@@ -44,8 +44,8 @@ function setup() {
        plinkos.push(new Plinko(j,375));
     }
 
-       if(frameCount %60 ===0){
-     particles.push(new Particle(random(width/2-10, width/2+10), 10,10));
+       if(frameCount%60===0){
+     particles.push(new Particle(random(width/2-20, width/2+20), 10,10));
      
    }
    
